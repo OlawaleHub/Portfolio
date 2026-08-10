@@ -17,8 +17,10 @@ export const profile = {
   location: "Lagos, Nigeria",
   email: "quadrisoliu14@gmail.com",
   phone: "+234 705 435 5120",
-  resumeUrl: "/resume.pdf",
+  resumeUrl: "/resume",
   avatar: "/profile.jpg",
+  objective:
+    "Highly versatile Biological Sciences Graduate and Software Engineer specializing in web and mobile application development using Dart & Flutter. Combines strong technical capabilities across cross-platform mobile engineering, web development, and data analysis with hands-on experience in laboratory research, administrative support, customer management, and education. Proven ability to architect scalable cross-platform applications, streamline operational workflows, manage cross-functional projects, and apply analytical problem-solving to complex technical challenges.",
   bio: "Software Engineer building fast, accessible websites and cross-platform mobile apps with Dart & Flutter. With a background in biological sciences, I combine solid engineering with human-centered thinking to create solutions that solve real-world problems and improve lives.",
   socials: {
     github: "https://github.com/OlawaleHub",
@@ -151,11 +153,34 @@ export const services = [
 ];
 
 export const certifications = [
-  "Flutter & Dart Mobile Development — Udemy, 2026",
-  "Full Stack Web Development — Udemy, 2026",
-  "Introduction to Software Engineering — IBM (Coursera), 2025",
-  "Programming with JavaScript — Meta (Coursera), 2025",
-  "Software Development — Septa Software Engineering Ltd, 2025",
+  {
+    group: "Software & Mobile Development",
+    items: [
+      "Flutter & Dart Mobile Development — Udemy, 2026",
+      "Full Stack Web Development — Udemy, 2026",
+      "Introduction to Software Engineering — IBM (Coursera), 2025",
+      "Programming with JavaScript — Meta (Coursera), 2025",
+      "Software Development — Septa Software Engineering Ltd, 2025",
+    ],
+  },
+  {
+    group: "Safety & Professional Development",
+    items: [
+      "Diploma in Workplace Safety & Health — Alison, 2024",
+      "Digital Safety & Security — Atingi, 2024",
+      "Basic Financial Literacy — Kudimata, 2024",
+      "Climate Change & Carbon Markets — Atingi, 2024",
+      "Principles of Eco-friendly Living — Alison, 2025",
+    ],
+  },
+];
+
+export const education = [
+  {
+    school: "Federal University of Agriculture, Abeokuta",
+    degree: "Bachelor of Science in Biological Science",
+    period: "",
+  },
 ];
 
 export const achievements = [

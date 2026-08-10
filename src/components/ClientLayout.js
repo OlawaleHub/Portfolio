@@ -12,7 +12,7 @@ export default function ClientLayout({ children }) {
   return (
     <div className="relative min-h-screen">
       {/* Animated aurora background — emerald → blue */}
-      <div className="fixed inset-0 -z-10 overflow-hidden bg-ink-950">
+      <div className="no-print fixed inset-0 -z-10 overflow-hidden bg-ink-950">
         <div className="aurora-blob w-[40vw] h-[40vw] bg-brand-600/40 top-[-10%] left-[-5%] animate-aurora" />
         <div
           className="aurora-blob w-[35vw] h-[35vw] bg-cyan-glow/30 top-[20%] right-[-10%] animate-aurora"

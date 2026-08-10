@@ -10,7 +10,7 @@ const iconMap = {
 
 export default function Footer() {
   return (
-    <footer className="relative border-t border-white/10 mt-10">
+    <footer className="no-print relative border-t border-white/10 mt-10">
       <div className="section-pad !py-16">
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
           <div>
