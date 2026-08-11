@@ -6,7 +6,7 @@ export const profile = {
   initials: "SQ",
   brand: "Sulphate",
   role: "Full-Stack Web & Mobile Developer",
-  tagline: "Web & Mobile Developer",
+  tagline: "Web & Mobile Applications",
   roles: [
     "Web Developer",
     "Mobile Developer",
