@@ -84,6 +84,16 @@ export const projects = [
     github: "https://github.com/OlawaleHub/token-gated-voting",
     featured: true,
   },
+  {
+    title: "Ifeoluwa Medical Articles",
+    description:
+      "A clean, fast website for publishing medical articles — built with Next.js App Router, Tailwind, and Sanity CMS, with ISR revalidation and an embedded no-code Studio for writing articles without touching code.",
+    tags: ["Next.js", "Tailwind", "Sanity CMS", "ISR", "lucide-react"],
+    accent: "from-sky-500 to-teal-500",
+    link: "https://github.com/OlawaleHub/ifeoluwa-medical",
+    github: "https://github.com/OlawaleHub/ifeoluwa-medical",
+    featured: true,
+  },
 ];
 
 export const experience = [
