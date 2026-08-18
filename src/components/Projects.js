@@ -35,15 +35,22 @@ function ProjectCard({ project, index }) {
               <ArrowUpRight size={18} />
             </a>
           )}
-          <a
-            href={project.github}
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Source code"
-            className="grid place-items-center h-11 w-11 rounded-xl glass text-white hover:scale-110 transition-transform"
-          >
-            <Github size={18} />
-          </a>
+          {project.github && (
+            <a
+              href={project.github}
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Source code"
+              className="grid place-items-center h-11 w-11 rounded-xl glass text-white hover:scale-110 transition-transform"
+            >
+              <Github size={18} />
+            </a>
+          )}
+          {!project.github && project.link && (
+            <span className="grid place-items-center h-9 px-3 rounded-xl glass text-xs font-mono text-white/70">
+              Confidential
+            </span>
+          )}
         </div>
       </div>
 

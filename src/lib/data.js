@@ -65,6 +65,16 @@ export const skills = [
 
 export const projects = [
   {
+    title: "Refcrypt Labs Website",
+    description:
+      "The official website for Refcrypt Labs — a production client project I built and maintain as a Software Engineer on the web & mobile team. Source code is confidential (NDA).",
+    tags: ["Next.js", "Tailwind", "CMS", "SEO", "Client Work"],
+    accent: "from-violet-500 to-indigo-500",
+    link: "https://refcryptlabs.com/",
+    github: "",
+    featured: true,
+  },
+  {
     title: "Lagos Emergency PWA",
     description:
       "A one-tap, offline-first emergency reporting PWA for Lagos. Report to the nearest Police, Fire, or Medical service with zero internet — powered by REFCRYPT LABS.",
@@ -75,16 +85,6 @@ export const projects = [
     featured: true,
   },
   {
-    title: "Token-Gated Voting",
-    description:
-      "A decentralized governance platform on Ethereum with paid voting, refunds, and quorum. A capstone group project built on OpenZeppelin Governor.",
-    tags: ["Solidity", "Hardhat", "OpenZeppelin", "ERC-20", "Web3"],
-    accent: "from-amber-500 to-rose-500",
-    link: "https://github.com/OlawaleHub/token-gated-voting",
-    github: "https://github.com/OlawaleHub/token-gated-voting",
-    featured: true,
-  },
-  {
     title: "Ifeoluwa Medical Articles",
     description:
       "A clean, fast website for publishing medical articles — built with Next.js App Router, Tailwind, and Sanity CMS, with ISR revalidation and an embedded no-code Studio for writing articles without touching code.",
@@ -92,6 +92,16 @@ export const projects = [
     accent: "from-sky-500 to-teal-500",
     link: "https://ifeoluwa-medical-czhv.vercel.app/",
     github: "https://github.com/OlawaleHub/ifeoluwa-medical",
+    featured: true,
+  },
+  {
+    title: "Token-Gated Voting",
+    description:
+      "A decentralized governance platform on Ethereum with paid voting, refunds, and quorum. A capstone group project built on OpenZeppelin Governor.",
+    tags: ["Solidity", "Hardhat", "OpenZeppelin", "ERC-20", "Web3"],
+    accent: "from-amber-500 to-rose-500",
+    link: "https://github.com/OlawaleHub/token-gated-voting",
+    github: "https://github.com/OlawaleHub/token-gated-voting",
     featured: true,
   },
 ];
