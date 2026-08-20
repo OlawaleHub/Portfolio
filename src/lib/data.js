@@ -22,6 +22,7 @@ export const profile = {
   objective:
     "Highly versatile Biological Sciences Graduate and Software Engineer specializing in web and mobile application development using Dart & Flutter. Combines strong technical capabilities across cross-platform mobile engineering, web development, and data analysis with hands-on experience in laboratory research, administrative support, customer management, and education. Proven ability to architect scalable cross-platform applications, streamline operational workflows, manage cross-functional projects, and apply analytical problem-solving to complex technical challenges.",
   bio: "Software Engineer building fast, accessible websites and cross-platform mobile apps with Dart & Flutter. With a background in biological sciences, I combine solid engineering with human-centered thinking to create solutions that solve real-world problems and improve lives.",
+  certificatesDrive: "https://drive.google.com/drive/folders/1r58nr-8laS2e9kBhuQXgq7qSr4aJvxOY",
   socials: {
     github: "https://github.com/OlawaleHub",
     linkedin: "https://www.linkedin.com/in/quadri-soliu-9448bb1a6",
